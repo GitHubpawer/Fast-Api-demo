@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "demo-app"
+version = "0.1.0"
+description = ""
+authors = ["kentarou"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.116.0"
+uvicorn = "^0.35.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
